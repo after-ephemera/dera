@@ -366,6 +366,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7e962a19be5cfc3f3bf6dd8f61eb50107f356ad6270fbb3ed41476571db78be5"
 
 [[package]]
+name = "dera"
+version = "0.0.1"
+dependencies = [
+ "anyhow",
+ "axum",
+ "mysten-service",
+ "prometheus",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tracing",
+]
+
+[[package]]
 name = "deranged"
 version = "0.3.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -841,20 +855,6 @@ dependencies = [
  "prometheus",
  "serde",
  "telemetry-subscribers",
- "tokio",
- "tracing",
-]
-
-[[package]]
-name = "mystim"
-version = "0.0.1"
-dependencies = [
- "anyhow",
- "axum",
- "mysten-service",
- "prometheus",
- "serde",
- "serde_json",
  "tokio",
  "tracing",
 ]

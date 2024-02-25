@@ -1,5 +1,5 @@
 [package]
-name = "mystim"
+name = "dera"
 authors = ["Jk Jensen <azjkjensen@gmail.com>"]
 version = "0.0.1"
 edition = "2021"

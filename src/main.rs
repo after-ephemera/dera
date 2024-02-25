@@ -1,9 +1,5 @@
-// Copyright (c) Mysten Labs, Inc.
-// SPDX-License-Identifier: Apache-2.0
-
 use anyhow::Result;
 use axum::extract::Json;
-use axum::extract::State;
 use axum::routing::get;
 use axum::routing::post;
 use mysten_service::get_mysten_service;
